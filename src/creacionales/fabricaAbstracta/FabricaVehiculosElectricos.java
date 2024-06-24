@@ -1,6 +1,6 @@
 package creacionales.fabricaAbstracta;
 
-public class FabricaVehiculosElectricos extends FabricaVehiculo{
+public class FabricaVehiculosElectricos implements FabricaVehiculo{
 
     @Override
     public Auto crearAuto() {
