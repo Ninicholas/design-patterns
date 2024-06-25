@@ -1,6 +1,6 @@
-package builder;
+package creacionales.builder;
 
-public class Car {
+public class Manual {
     private int seats;
     private String engine;
     private boolean tripComputer;
@@ -24,7 +24,7 @@ public class Car {
 
     @Override
     public String toString() {
-        return "Car: " + System.lineSeparator() +
+        return "Manual: " + System.lineSeparator() +
                 "  Seats: " + seats + System.lineSeparator() +
                 "  Engine: " + engine + System.lineSeparator() +
                 "  Trip Computer: " + tripComputer + System.lineSeparator() +

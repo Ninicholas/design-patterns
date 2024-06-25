@@ -1,4 +1,4 @@
-package builder;
+package creacionales.builder;
 
 public class CarManualBuilder implements Builder {
     private Manual manual;

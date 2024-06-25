@@ -1,4 +1,4 @@
-package builder;
+package creacionales.builder;
 
 public class testBuilder {
     public static void main(String[] args) {
