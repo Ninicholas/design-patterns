@@ -1,4 +1,4 @@
-package chainOfResponsibility;
+package comportamiento.chainOfResponsibility;
 
 public class ChainOfResponsibilityDemo {
     public static void main(String[] args) {

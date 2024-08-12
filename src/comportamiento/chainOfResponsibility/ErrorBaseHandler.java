@@ -1,4 +1,4 @@
-package chainOfResponsibility;
+package comportamiento.chainOfResponsibility;
 
 class ErrorBaseHandler extends BaseHandler {
     @Override

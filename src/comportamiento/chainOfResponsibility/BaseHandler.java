@@ -1,4 +1,4 @@
-package chainOfResponsibility;
+package comportamiento.chainOfResponsibility;
 
 abstract class BaseHandler implements Handler {
     private Handler next;

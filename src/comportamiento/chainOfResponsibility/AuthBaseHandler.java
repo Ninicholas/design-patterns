@@ -1,4 +1,4 @@
-package chainOfResponsibility;
+package comportamiento.chainOfResponsibility;
 
 class AuthBaseHandler extends BaseHandler {
     @Override

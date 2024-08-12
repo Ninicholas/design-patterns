@@ -1,4 +1,4 @@
-package chainOfResponsibility;
+package comportamiento.chainOfResponsibility;
 
 public interface Handler {
     Handler setNext(Handler next);
