@@ -1,0 +1,25 @@
+package comportamiento.memento;
+
+public class Document {
+    private String content;
+
+    public Document(String content) {
+        this.content = content;
+    }
+
+    public String getContent() {
+        return content;
+    }
+
+    public void setContent(String content) {
+        this.content = content;
+    }
+
+    public DocumentSnapshot createSnapshot() {
+        return new DocumentSnapshot(content);
+    }
+
+    public void restore(DocumentSnapshot snapshot) {
+        this.content = snapshot.getContent();
+    }
+}
